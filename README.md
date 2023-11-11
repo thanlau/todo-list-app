@@ -20,7 +20,7 @@ pip install sqlalchemy
 Run the script from the command line. The application provides a menu with options to manage your tasks:
 
 ```bash
-python [script_name].py
+python task_todolist_todolist.py
 ```
 - Select 1 to view today's tasks.
 - Select 2 to view this week's tasks.
