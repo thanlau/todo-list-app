@@ -14,3 +14,21 @@ To use this application, you need Python installed on your system along with SQL
 
 ```bash
 pip install sqlalchemy
+```
+
+##Usage
+Run the script from the command line. The application provides a menu with options to manage your tasks:
+
+```bash
+python [script_name].py
+```
+- Select 1 to view today's tasks.
+- Select 2 to view this week's tasks.
+- Select 3 to view all tasks.
+- Select 4 to view missed tasks.
+- Select 5 to add a new task.
+- Select 6 to delete a task.
+- Select 0 to exit the application.
+  
+## Database
+The application uses a SQLite database to store tasks. The database file is automatically created when you first run the application.
